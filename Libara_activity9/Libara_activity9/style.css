@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.main{
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,238,104,1) 22%, rgba(0,212,255,1) 82%);
+}
+nav{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 3rem;
+    padding: 10px;
+}
+nav a{
+    font-size: 2rem;
+    color: black;
+}
+.main h1{
+    text-align: center;
+    padding: 10px;
+    background-color: aquamarine;
+    width: 100vw;
+}
+.form{
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    padding: 3rem;
+    background-color:cornflowerblue;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px grey;
+}
+label{
+    font-size: 20px;
+}
+input{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+select{
+    height: 40px;
+    width: 300px;
+    padding-left: 3px;
+    font-size: 15px;
+}
+
+[type="submit"]{
+    background-color: aquamarine;
+    width: 170px;
+    margin-left: 60px;   
+    margin-top: 30px;
+}
+.footer{
+    height: 5%;
+}
+.footer h2{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 1rem;
+}
+.register{
+    padding: 5px;
+    border: 1px solid black;
+    gap: 5px;
+}
+
+div{
+    border: 1px solid black;
+    margin-bottom: 2px;
+}
